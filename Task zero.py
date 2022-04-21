@@ -122,19 +122,32 @@ time(71)
 print(("*" * 14) + "end")
 
 #Task 0.9
-def printvowels(string):
-        
-    vowels = "AaEeIiOoUu"
+def pvowels (string, vowels):
+    solution = [word1 for word1 in string if word1 in vowels]
+    print(solution)             
+
+string = str(" ")
+vowels = "AaEeIiOoUu"
+
+pvowels('Umuzi', vowels)
+
+print(("*" * 14) + "end")
+
+
+#Task 0.10
+#def pvowels (string1, string2, vowels):
+    #solution1 = [word2 for word2 in string1 if word2 in vowels]
+   # print(solution1)
     
-    for word1 in string:
-         
-        if word1 in vowels:
-            print(word1)             
+    #solution2 = [word3 for word3 in string2 if word3 in vowels]
+   # print(solution2)             
+             
 
-string = input('enter any word: ')
+#string1 = str(" ")
+#string2 = str(" ")
+#vowels = "AaEeIiOoUu"
 
-printvowels(string)
+#pvowels(string1, string2, vowels);
 
-printvowels("knowprogram")
-
+#pvowels('house', 'computers', vowels)
 
