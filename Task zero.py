@@ -1,5 +1,4 @@
 #Task 0.1
-
 #Assigning values to variable
 x = 0
 y = 1
