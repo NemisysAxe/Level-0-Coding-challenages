@@ -1,8 +1,6 @@
 #Task 0.1
-import string
-from unittest import result
 
-
+#Assigning values to variable
 x = 0
 y = 1
 print(x)
@@ -14,6 +12,7 @@ y = y + x
 print(x)
 print(y)
 
+#end of line code
 print(("*" * 14) + "end")
 
 
@@ -34,6 +33,7 @@ print(("*" * 14) + "end")
 
 #Task 0.3
 
+#defining a function hello
 def hello():
     new_value = "Hello " + str("Tshepo")
     print(new_value)
@@ -43,6 +43,8 @@ hello()
 print(("*" * 14) + "end")
 
 #Task 0.4
+
+"""this function returns whether a value is odd or even"""
 def even_or_odd(value):
     
     if value % 2 == 0:   
@@ -58,7 +60,7 @@ print(("*" * 14) + "end")
 
 
 #Task 0.5
-
+"""defining the variables needed to calculate the area of a triangle"""
 def triangle_area(constant, height, breath):
     #constant = 0.5
     tri_area = constant * height * breath
@@ -70,6 +72,7 @@ print(("*" * 14) + "end")
 
 
 #Task 0.6
+"""this function returns the highest of three vaules"""
 def maximum(value1, value2, value3):
     if (value1 > value2 and value1 > value3):
         print(value1)    
@@ -111,6 +114,7 @@ print(("*" * 14) + "end")
 
 
 #Task 0.8
+""" this function will convert time in minutes, to a more detailed layout with hours and minutes"""
 def time(t):
     hours = (t // 60) 
     minutes = (t % 60)
@@ -122,6 +126,7 @@ time(71)
 print(("*" * 14) + "end")
 
 #Task 0.9
+"""this function returns the vowels from a single string value"""
 def pvowels (string, vowels):
     solution = [word1 for word1 in string if word1 in vowels]
     print(solution)             
@@ -135,6 +140,7 @@ print(("*" * 14) + "end")
 
 
 #Task 0.10
+"""this function returns the vowels from two string input"""
 def prvowels (string1, string2, vowels):
     solution1 = [word2 for word2 in string1 if word2 in vowels]
     print(solution1)
